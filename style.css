@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    padding: 15px;
+}
+div.relative{ 
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+     
+}
