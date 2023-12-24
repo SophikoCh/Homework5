@@ -1,15 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
+div {
+    display: block;
 }
-div{
-    display: flex;
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+div.picture{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 180px;
+}
+div.picture:hover{
+    border: 1px solid #777;
+}
+div.picture img {
+    width:100%;
+    height:auto;
+}
+
+div.desctiption {
     padding: 15px;
-}
-div.relative{ 
-    position: relative;
-    width: 400px;
-    height: 200px;
-    border: 1px solid black;
-     
+    text-align: center;
 }
